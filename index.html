@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Playfair+Display&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="wrapper">
+			<a href="/" class="logo"></a>
+			<nav class="nav_menu wow animate__rotateIn" data-wow-delay="2s" data-wow-duration="2s">
+				<a href="/" class="logo_mini"></a>
+				<div class="container_menuAndGumburger">
+					<div class="cont_gumburger" onclick="mobileopenBtn()">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<ul class="menu">
+						<li><a href="#">HOME</a></li>
+						<li id="menu_recipes" onclick="openBtn()">Recipes
+							<ul class="menu_recipes__dropList " >
+								<li><a href="/">RECOMMENDED</a></li>
+								<li><a href="/">POPULAR</a></li>
+								<li><a href="/">QUICK & EASY</a></li>
+								<li><a href="/">HEALTHY</a></li>
+								<li><a href="/">NEWEST</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Photo Galleries</a></li>
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">All Categories</a></li>
+					</ul>					
+				</div>
+
+				<form action="#" class="form_search">
+					<input type="text" placeholder="FIND A RECIPE">
+				</form>
+			</nav>
+		</div>
+	</header>
+	
+	<main>
+		<div class="wrapper">
+			<section class="heroPage wow animate__slideInLeft"  data-wow-duration="3s" data-wow-offset="100">
+				<div class="heroPage_info wow animate__tada"  data-wow-duration="3s" data-wow-offset="100" data-wow-delay="4s">
+					<a href="#" class="middle_logo"></a>
+					<h3 class="heroPage_title">Bananas Foster Ice Cream Cake</h3>
+					<p class="heroPage_info__text">
+						<span>If you're</span> looking for decadence, look no further — you've found the Holy Grail of desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream cake.
+					</p>
+					<a href="#" class="heroPage_btn btn">GET IT RECIPE</a>
+				</div>
+				<a href="#" class="mobile_version">GET IT RECIPE</a>
+			</section>	
+			<section class="heroPage wow animate__slideInLeft"  data-wow-duration="3s" data-wow-offset="100">
+				<div class="heroPage_info wow animate__tada"  data-wow-duration="3s" data-wow-offset="100" data-wow-delay="4s">
+					<a href="#" class="middle_logo"></a>
+					<h3 class="heroPage_title">Bananas Foster Ice Cream Cake</h3>
+					<p class="heroPage_info__text">
+						<span>If you're</span> looking for decadence, look no further — you've found the Holy Grail of desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream cake.
+					</p>
+					<a href="#" class="heroPage_btn btn">GET IT RECIPE</a>
+				</div>
+				<a href="#" class="mobile_version">GET IT RECIPE</a>
+			</section>	
+			<section class="heroPage wow animate__slideInLeft"  data-wow-duration="3s" data-wow-offset="100">
+				<div class="heroPage_info wow animate__tada"  data-wow-duration="3s" data-wow-offset="100" data-wow-delay="4s">
+					<a href="#" class="middle_logo"></a>
+					<h3 class="heroPage_title">Bananas Foster Ice Cream Cake</h3>
+					<p class="heroPage_info__text">
+						<span>If you're</span> looking for decadence, look no further — you've found the Holy Grail of desserts. Honestly, this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream cake.
+					</p>
+					<a href="#" class="heroPage_btn btn">GET IT RECIPE</a>
+				</div>
+				<a href="#" class="mobile_version">GET IT RECIPE</a>
+			</section>	
+			<div class="recipees wow animate__slideInRight"  data-wow-duration="3s" data-wow-offset="100">
+				<div class="items">
+					<img src="img/picture/sect2_foto1.png" alt="Raspberry" title="Raspberry & Cream Frozen Yogurt Pie" class="sect_img">
+					<div class="img_title">Raspberry & Cream Frozen Yogurt Pie</div>
+					<div class="recipees_img__info">
+						<div class="min">35mins</div>
+						<div class="border"></div>
+						<div class="comment">7</div>
+						<div class="overlooks">14</div>
+					</div>
+				</div>
+				<div class="items">
+					<img src="img/picture/sect2_foto2.png" alt="Sandwich" title="Giant Ice Cream Sandwich" class="sect_img">
+					<div class="img_title">Giant Ice Cream Sandwich</div>
+					<div class="recipees_img__info">
+						<div class="min">35mins</div>
+						<div class="border"></div>
+						<div class="comment">7</div>
+						<div class="overlooks">14</div>
+					</div>
+				</div>
+				<div class="items">
+					<img src="img/picture/sect2_foto3.png" alt="Dark Chocolate"  title="Dark Chocolate Crunch Ice Cream Sandwich Cake" class="sect_img">
+					<div class="img_title">Dark Chocolate Crunch Ice Cream Sandwich Cake</div>
+					<div class="recipees_img__info">
+						<div class="min">35mins</div>
+						<div class="border"></div>
+						<div class="comment">7</div>
+						<div class="overlooks">14</div>
+					</div>
+				</div>
+			</div>
+			<div class="complexity_wrapper "  >
+				<div class="complexity__container">
+					<div class="easy">easy</div>
+					<div class="middle">middle</div>
+					<div class="long">long</div>
+				</div>
+
+				<div class="complexity_menu__container">
+					<div class="complexity_menu_EASY">
+						<div class="item">
+							<img src="img/picture/readAndPost_img1.png" alt="Raspberry" title="Raspberry menu" class="complexity_menu__img">
+							<div class="complexity_menu__wrapper">
+								<div class="complexity_menu__name">by<a href="#">Smuckersreg Toppings</a></div>
+								<div class="complexity_menu__text">
+									Thanks for the recipe
+									lorem ipsum bla bla bla  
+									Thanks for the recipe lore
+								</div>							
+							</div>
+
+						</div>
+						<div class="item">
+							<img src="img/picture/readAndPost_img2.png" alt="Giant Ice Cream Sandwich" title="Raspberry menu" class="complexity_menu__img">
+							<div class="complexity_menu__wrapper">
+								<div class="complexity_menu__name">by<a href="#">Smuckersreg Toppings</a></div>
+								<div class="complexity_menu__text">
+									Thanks for the recipe
+									lorem nks for the recipe
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/picture/readAndPost_img3.png" alt="Dark Chocolate Crunch Ice Cream Sandwich Cake" class="complexity_menu__img">
+							<div class="complexity_menu__wrapper">
+								<div class="complexity_menu__name">by<a href="#">Smuckersreg Toppings</a></div>
+								<div class="complexity_menu__text">
+									Thanks for the recipe
+									lorem nks for the recipe
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="complexity_menu_MIDDLE">
+						<div class="item">
+							<img src="img/picture/readAndPost_img1.png" alt="Raspberry" title="Raspberry menu" class="complexity_menu__img">
+							<div class="complexity_menu__wrapper">
+								<div class="complexity_menu__name">by<a href="#">Midle Toppings</a></div>
+								<div class="complexity_menu__text">
+									Thanks for the recipe
+									lorem ipsum bla bla bla  
+									Thanks for the recipe lore
+								</div>							
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/picture/readAndPost_img2.png" alt="Giant Ice Cream Sandwich" title="Raspberry menu" class="complexity_menu__img">
+							<div class="complexity_menu__wrapper">
+								<div class="complexity_menu__name">by<a href="#">Smuckersreg Toppings</a></div>
+								<div class="complexity_menu__text">
+									Thanks for the recipe
+									lorem nks for the recipe
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/picture/readAndPost_img3.png" alt="Dark Chocolate Crunch Ice Cream Sandwich Cake" class="complexity_menu__img">
+							<div class="complexity_menu__wrapper">
+								<div class="complexity_menu__name">by<a href="#">Smuckersreg Toppings</a></div>
+								<div class="complexity_menu__text">
+									Thanks for the recipe
+									lorem nks for the recipe
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="complexity_menu_LONG">
+						<div class="item">
+							<img src="img/picture/readAndPost_img1.png" alt="Raspberry" title="Raspberry menu" class="complexity_menu__img">
+							<div class="complexity_menu__wrapper">
+								<div class="complexity_menu__name">by<a href="#">LOng Toppings</a></div>
+								<div class="complexity_menu__text">
+									Thanks for the recipe
+									lorem ipsum bla bla bla  
+									Thanks for the recipe lore
+								</div>							
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/picture/readAndPost_img2.png" alt="Giant Ice Cream Sandwich" title="Raspberry menu" class="complexity_menu__img">
+							<div class="complexity_menu__wrapper">
+								<div class="complexity_menu__name">by<a href="#">Smuckersreg Toppings</a></div>
+								<div class="complexity_menu__text">
+									Thanks for the recipe
+									lorem nks for the recipe
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/picture/readAndPost_img3.png" alt="Dark Chocolate Crunch Ice Cream Sandwich Cake" class="complexity_menu__img">
+							<div class="complexity_menu__wrapper">
+								<div class="complexity_menu__name">by<a href="#">Smuckersreg Toppings</a></div>
+								<div class="complexity_menu__text">
+									Thanks for the recipe
+									lorem nks for the recipe
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+
+				<div class="readAndPost">
+					<div class="readLink_box">
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
+					</div>
+					<a href="#" class="section__btn btn">view more</a>
+				</div>
+			</div> 
+			<section class="popularNov">
+				<h2 class="popularNov__slog">Popular Now</h2>
+				<h3 class="popularNov__title">Vanilla Frozen Coffee</h3>
+				<div class="popularNov__structure">Mix coffee, sugar and creamer. Pour into blender and add ice cubes. Blend until smooth.</div>
+				<div class="popularNov__link">
+					<a href="#" class="section__btn btn">GET IT RECIPE</a>
+					<div class="recipees_img__info popularNov__info">
+						<div class="min">6mins</div>
+						<div class="border"></div>
+						<div class="comment">240</div>
+						<div class="overlooks">400</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="recipe wow animate__zoomIn" data-wow-duration="3s" data-wow-offset="100">
+				<div class="recipe_photo">
+					
+					<div class="photo_icon"></div>
+				</div>
+				<div class="recipe_info">
+					<h2 class="recipe_info__title wow animate__tada"  data-wow-duration="3s" data-wow-offset="100" data-wow-delay="4s">Bananas Foster Ice Cream Cake</h2>
+					<div class="recipe_icon__wrapper">
+						<div class="recipe_icon">
+							<div class="icon_min">15mins</div>
+							<div class="icon_easy">
+								<div class="rectangl_box">
+									<div class="stick1 filled"></div>
+									<div class="stick2 filled"></div>
+									<div class="stick3 filled"></div>
+									<div class="stick4 "></div>
+								</div>
+								Easy
+							</div>
+						</div>
+						<a href="#" class="recipe_save btn">SAVE RECIPE</a>				
+					</div>
+					<div class="recipe_wrapper">
+						<ul class="recipe_structure">
+							<li>1 (8 ounce) container frozen whipped topping, thawed</li>
+							<li>20 chocolate round wafers, divided</li>
+							<li>1 (7 1/4 ounce) bottle Smucker's® Hot Dark Chocolate Microwaveable Top-ping, divided</li>
+						</ul>
+						<h4 class="structure_title">Directions</h4>
+						<p class="structure_text">
+							ARRANGE 8 to 9 ice cream sandwiches in 9-inch square pan, cutting to form an even layer. Spread with half of whipped topping. Break or crush chocolate wafers and sprinkle over the whipped cream. Microwave 1 cup of chocolate topping into small microwave-safe bowl on HIGH for 30 seconds. Drizzle evenly over wafers.
+							TOP with remaining 8 to 9 ice cream sandwiches to form an even layer. Spread with remaining whipped topping. Freeze 3 hours or overnight. Remove from freezer 10 minutes before serving. Cut into squares.
+							HEAT remaining topping. Drizzle each serving with topping. Sprinkle with decorator sprinkles.
+							Nutritional information (amount per servings): Total Calories: 640. Sodium 440mg. Fat: 32g. Carbohydrates: 82g. Cholesterol: 40mg. Protein: 11g. Fiber: 1g.վ
+						</p>						
+					</div>
+
+				</div>
+			</section>
+			<div class="autor_wrapper">
+					<div class="sorry_box wow animate__slideInLeft" data-wow-duration="3s" data-wow-offset="100">
+						<div class="sorry_line"></div>
+						<a href="#" class="sorry_back__btn btn">BACK</a>
+					</div>
+					<div class="autor_box wow animate__slideInRight" data-wow-duration="3s" data-wow-offset="100">
+						<div class="autor_line"></div>
+						<div class="autorCont">
+							<img src="img/picture/autor_img.png" alt="Karen Gray" title="Karen Gray
+United States" class="autor_cont__icon">
+							<div class="autorCont_info">
+								<div class="autorCont_info__name">Karen Gray</div>
+								<div class="autorCont_info__contry">United States</div>
+								<div class="autorCont_info__social">
+									<a href="#" class="google"></a>
+									<a href="#" class="twitter"></a>
+									<a href="#" class="facebook"></a>
+									<a href="#" class="pesh"></a>
+								</div>
+								<div class="autorCont_info__line"></div>
+								<div class="autorCont_info__title">About Lemon</div>
+								<div class="autorCont_info__text">Over the fifteen-year life span of Food.com, we’ve learned that – in addition to eating – sharing is what you do best. And thanks to the 20 million of you who come here each month, we now have 500,000 recipes to show for it, more than anywhere else in the digital universe. We also have tons crazy-tempting photos, troves of recipe reviews and more than 2 million Facebook likes. That’s a heck of a lot of Food. Thank you!</div>
+								<div class="autorCont_info__signature"></div>
+							</div>
+						</div>
+					</div>
+				
+				</div>		
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="footer_logo__wraapper">
+			<a href="/" class="footer_logo"></a>
+			<div class="autorCont_info__social  footer_logo__after">
+				<a href="#" class="google"></a>
+				<a href="#" class="twitter"></a>
+				<a href="#" class="facebook"></a>
+				<a href="#" class="pesh"></a>
+			</div>
+		</div>
+		
+		<ul class="footer_menu">
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">Recipes</a></li>
+			<li><a href="#">Photo Galleries</a></li>
+			<li><a href="#">Videos</a></li>
+			<li><a href="#">All Categories</a></li>
+		</ul>
+		<div class="footer_copyRight">
+			&copy; 2016-2017 LEMON.<br> All right reserved
+			<div class="autorCont_info__social footer_social">
+				<a href="#" class="google"></a>
+				<a href="#" class="twitter"></a>
+				<a href="#" class="facebook"></a>
+				<a href="#" class="pesh"></a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>	
+</body>
+</html>
